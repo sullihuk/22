@@ -3,5 +3,5 @@ require 'sinatra'
 require 'sinatra/contrib/all'
 
 get '/' do
-  erb "Hello"
+  erb "<p>Hello Epta</p>"
 end
