@@ -1,1 +1,26 @@
 <h2> Записаться</h2>
+<form action="/visit" method="POST" role="form">
+    <fieldset>  
+	<legend> Форма записи на стрижку</legend>
+
+  	<label for="name">Name</label>
+        <input type="text" name="customer"><br><br>
+        
+	<label for="date">Arrivel time</label>
+        <input type="text"  name="date"><br><br>
+
+        <label for="phone">Phone</label>
+        <input type="text"  name="phone"><br><br>
+
+        <label for="barber"> Choose your barber</label>
+        <select name="barber">
+          <option>White</option>
+          <option>Pinkman</option>
+          <option>Fring</option>
+        </select>
+
+        <button type="submit" class="button">Записаться</button>
+
+    </fieldset>
+</form>
+
