@@ -8,9 +8,6 @@ h1 {font-size: 22px;}
 h2 {font-size: 20px;}
 h3 {font-size: 16px;}
 
-button.button {
-
-}
 .bold-text {font-weight: bold; }
 .red-text {color: red;}
 .purple-text {color: purple;}
@@ -71,7 +68,7 @@ h2::selection {
         color: red;
 	font-size: 50px;
 }
-p::before {
+/*p::before {
 	content: "NOTE: ";
 	font-weight: bold;
 	color: red;
@@ -81,7 +78,7 @@ p::after {
 	font-style: italic;
 	background-color: black;
 	color: yellow;
-	}
+	}*/
 .relative-position {
 	position: relative;
 	left: 20px;
@@ -212,3 +209,25 @@ tr:nth-child(even) {background-color:lightgray;}
 	color: darkgrey;
 	font-style:italic;
 }
+* {
+	box-sizing:border-box;
+}
+.button {
+	border:1px;
+	background-color: darkblue;
+	color:#fff;
+	border-radius: 8px;
+	font-family: inherit;
+	font-size: 2em;
+	padding: 15 15 15 15;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.18);
+	min-width: 10ch;
+	min-height: 44px;
+
+}
+	
+
